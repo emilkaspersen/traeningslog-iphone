@@ -1,6 +1,6 @@
 // Generated from this build. No personal data is cached here.
-const CACHE = "traeningslog-b6be52ac457777e4";
-const ASSETS = ["./apple-touch-icon.png","./assets/index-CEJuacUl.css","./assets/index-Cp66Hxqm.js","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
+const CACHE = "traeningslog-1e93c3158e68167f";
+const ASSETS = ["./apple-touch-icon.png","./assets/index-DFb9kPyI.css","./assets/index-DMaMfl6E.js","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./manifest.webmanifest","./version.json"];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
 });
