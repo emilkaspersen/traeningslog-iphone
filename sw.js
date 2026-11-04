@@ -1,7 +1,7 @@
 // Generated from this build. No personal data is cached here.
 const PREFIX = 'traeningslog:' + self.registration.scope + ':';
-const CACHE = PREFIX + "traeningslog-252bbc7fd12cbc9a";
-const ASSETS = ["./apple-touch-icon.png","./assets/index-C5JLFvEX.js","./assets/index-DuyCdKrZ.css","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./manifest.webmanifest","./version.json"];
+const CACHE = PREFIX + "traeningslog-ad0127e27426f926";
+const ASSETS = ["./apple-touch-icon.png","./assets/index-BG0RKhWy.js","./assets/index-DuyCdKrZ.css","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./manifest.webmanifest","./version.json"];
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
